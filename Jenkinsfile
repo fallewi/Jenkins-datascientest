@@ -1,4 +1,5 @@
 pipeline {
+	agent any
 environment { // Declaration of environment variables
 DOCKER_ID = "fallewi" // replace this with your docker-id
 DOCKER_IMAGE = "datascientestapi"
